@@ -88,15 +88,18 @@ section  {
   opacity: 0.7;
 }
 .contact_icons {
+  display: grid;
   width: 40%;
   gap: 20px;
   font-size: 40px;
   font-weight: 200;
 }
-.email {
+.info {
   font-size: 18px;
   font-weight: 100;
   opacity: 0.7;
+  text-decoration: none;
+  color: white;
 }
 section:nth-child(odd) {
     background: #323946;
@@ -197,6 +200,7 @@ img {vertical-align: middle;}
   justify-content: center;
   gap: 30px;
   margin-top: 70px;
+  
 }
 .wiew_line{
   border: 2px solid white;
@@ -205,7 +209,7 @@ img {vertical-align: middle;}
   font-size: 16px;
   text-decoration: none;
   color: white;
-
+  font-weight: 100;
 }
 .text {
   color: #f2f2f2;

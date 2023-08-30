@@ -39,7 +39,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #0ef;
+    color: #e67e22;
 }
 .title {
   width: 40%;
@@ -120,7 +120,7 @@ section:nth-child(odd) {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0ef;
+  background-color:#e67e22;
   overflow: hidden;
   border-radius: 20px;
   
